@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <%- include('partials/head')%>
+    <title><%= title%></title>
+</head>
+<body>
+    <%- include('partials/navigation')%>
+    
+    <div class="container d-flex flex-column justify-content-center align-items-center">
+        <h1 class="display-4 d-flex justify-content-center fw-bold pt-5">Portafolio</h1>
+        <p class="fw-bold pt-3">Nuestro portafolio de proyectos muestra nuestra experiencia y
+            el impacto que hemos tenido en diversas industrias. Hemos trabajado con empresas de
+            diferentes tamaños y sectores, brindándoles soluciones tecnológicas a medida que han
+            mejorado su eficiencia operativa y su presencia en línea. Estos son algunos de nuestros
+            proyectos destacados</p>
+            <div class="row row-cols-1 row-cols-md-2 g-4 pt-3 pb-5">
+                <div class="col">
+                  <div class="card">
+                    <img src="/img/plana.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Plan A</h5>
+                      <p class="card-text">Desarrollo de una plataforma de comercio electrónico escalable para una
+                        empresa minorista líder.
+                        </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="/img/planb.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Plan B</h5>
+                      <p class="card-text">Desarrollo de una plataforma de comercio electrónico escalable para una
+                        empresa minorista líder.
+                        </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="/img/planc.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Plan C</h5>
+                      <p class="card-text">Implementación de un sistema de gestión de inventario personalizado para
+                        una cadena de distribución.
+                        </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="/img/pland.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Plan D</h5>
+                      <p class="card-text"> Diseño y desarrollo de un sitio web interactivo para una agencia de
+                        marketing digital.
+                        </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+    </div>
+    <%- include('partials/footer.ejs')%>
+</body>
+</html>

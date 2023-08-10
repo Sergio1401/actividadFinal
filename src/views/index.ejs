@@ -7,8 +7,16 @@
     <title><%= title%></title>
 </head>
 <body>
-    <%- include ('partials/navigation') %>
-    <h1>Esta Funcionando</h1>
-    <%- include ('partials/footer') %>
+    <%- include('partials/navigation.ejs')%>
+    <header class="container vh-100 d-flex justify-content-center align-items-center">
+        <div class="d-flex flex-column justify-content-center align-items-center">
+            <img src="/img/logo.jpg" alt="logo" class="rounded-circle img-fluid height-10" width="300px">
+            <h1 class="display-5 my-4 text-uppercase fw-bold ">IT Solutions</h1>
+            <a href="/quienesSomos">
+                <button type="button" class="btn btn-success">¿Quienes Somos?</button>
+            </a>
+        </div> 
+    </header>
+    <%- include('partials/footer.ejs')%>
 </body>
 </html>
